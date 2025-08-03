@@ -12,6 +12,8 @@ export async function PokemonCard({ name }: { name: string }) {
     return null
   }
 
+  //i added this comment
+
   return (
     <Card>
       <CardContent className="flex flex-col items-center p-2">
@@ -20,6 +22,8 @@ export async function PokemonCard({ name }: { name: string }) {
         </div>
         <div className="text-center font-medium">{pokemon.name}</div>
       </CardContent>
+
+      
     </Card>
   )
 }
